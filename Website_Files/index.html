@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">Color Counter</div>  <!-- General title for all counters -->
+    <div class="container">
+        <div class="counter">
+            <div class="colorHeader">Black</div>
+            <!--<img src="Assets/black.jpeg" alt="Black">-->
+            <div class="count" id="blackCount">0</div>
+        </div>
+        <div class="counter">
+            <div class="colorHeader">White</div>
+            <!--<img src="Assets/white.png" alt="White">-->
+            <div class="count" id="whiteCount">0</div>
+        </div>
+        <div class="counter">
+            <div class="colorHeader">Miscellaneous</div>
+            <!--<img src="Assets/red.jpeg" alt="Miscellaneous">-->
+            <div class="count" id="miscCount">0</div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="status">
+            <div id="header">Current Robot Status: No errors</div>
+            <div class="message" id="belt_status">Belt status: Not running</div>
+            <div class="message" id="sorting_status">Sorting status: Off</div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
